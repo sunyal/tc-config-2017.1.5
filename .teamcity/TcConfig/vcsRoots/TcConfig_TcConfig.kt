@@ -9,7 +9,6 @@ object TcConfig_TcConfig : GitVcsRoot({
     name = "TC Config"
     url = "git@github.com:sunyal/tc-config-2017.1.5.git"
     branch = "%my_branch%"
-    branchSpec = "+:*"
     authMethod = customPrivateKey {
         customKeyPath = "//data/teamcity_server/datadir/id_rsa_tc_test"
     }
