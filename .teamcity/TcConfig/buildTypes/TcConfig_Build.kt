@@ -22,6 +22,8 @@ object TcConfig_Build : BuildType({
                 echo --------------2017.1.5----------------
                 cat README.md
                 echo --------------2017.1.5----------------
+                echo environment vars
+                printenv
             """.trimIndent()
         }
     }
