@@ -18,7 +18,7 @@ object TcConfig_Build : BuildType({
     steps {
         script {
             scriptContent = """
-                echo master
+                echo branch_1
                 echo --------------2017.1.5----------------
                 cat README.md
                 echo --------------2017.1.5----------------
