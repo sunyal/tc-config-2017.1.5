@@ -19,6 +19,10 @@ object Project : Project({
 
     buildType(TcConfig_Build)
 
+    params {
+        param("my_branch", "master")
+    }
+
     features {
         versionedSettings {
             id = "PROJECT_EXT_2"
