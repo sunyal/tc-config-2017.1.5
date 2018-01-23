@@ -8,7 +8,7 @@ object TcConfig_TcConfig : GitVcsRoot({
     extId = "TcConfig_TcConfig"
     name = "TC Config"
     url = "git@github.com:sunyal/tc-config-2017.1.5.git"
-    branch = "master"
+    branch = "%my_branch%"
     branchSpec = """
         +:refs/pull/(*/merge)
         +:refs/heads/*
